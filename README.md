@@ -20,7 +20,7 @@ The goal is to **compare sales performance between stores with a discount campai
 ---
 
 ## Folder Structure
-
+```
 fmcg-ab-test-sales-analysis/
 │
 ├── data/
@@ -35,4 +35,4 @@ fmcg-ab-test-sales-analysis/
 │
 ├── README.md
 └── requirements.txt # Python dependencies
-
+```
