@@ -45,6 +45,7 @@ fmcg-ab-test-sales-analysis/
 ```bash
 git clone https://github.com/aoffenbek/fmcg-ab-test-sales-analysis.git
 cd fmcg-ab-test-sales-analysis
+```
 
 **2. Create a virtual environment (optional but recommended)**
 
@@ -64,17 +65,12 @@ Navigate to notebooks/01_ab_test_analysis.ipynb and run all cells.
 
 ## Project Steps
 
-Data Generation / Loading – generate or load raw sales data.
-
-Grouping Stores – assign stores to discount or control group.
-
-Exploratory Data Analysis – calculate daily sales, averages, and visualize.
-
-Summary Statistics – compute mean, standard deviation, and export results.
-
-Visualization – bar charts comparing discount vs control groups.
-
-Output – save summary tables for further business analysis.
+**1. Data Generation / Loading** – generate or load raw sales data.
+**2. Grouping Stores** – assign stores to discount or control group.
+**3. Exploratory Data Analysis** – calculate daily sales, averages, and visualize.
+**4. Summary Statistics** – compute mean, standard deviation, and export results.
+**5. Visualization** – bar charts comparing discount vs control groups.
+**6. Output** – save summary tables for further business analysis.
 
 ---
 
@@ -109,15 +105,11 @@ plt.show()
 
 ## Skills Demonstrated
 
-Data Analysis & Cleaning: Pandas, SQL basics
-
-Visualization: Matplotlib charts for A/B comparison
-
-Statistical Thinking: Basic summary statistics for A/B testing
-
-Portfolio-Ready Workflow: Folder structure, modular code, reproducibility
-
-Documentation & Reporting: Clear README and notebook explanation
+**Data Analysis & Cleaning:** Pandas, SQL basics
+**Visualization:** Matplotlib charts for A/B comparison
+**Statistical Thinking:** Basic summary statistics for A/B testing
+**Portfolio-Ready Workflow:** Folder structure, modular code, reproducibility
+**Documentation & Reporting:** Clear README and notebook explanation
 
 ---
 
@@ -144,10 +136,7 @@ sqlalchemy>=2.0
 
 ## Next Steps / Extensions
 
-Apply hypothesis testing (t-tests) to confirm statistical significance.
-
-Integrate time-series analysis for trends over weeks/months.
-
-Simulate realistic FMCG datasets with multiple product categories.
-
-Explore Python visualization libraries (Seaborn, Plotly) for interactive dashboards.
+Apply **hypothesis testing (t-tests)** to confirm statistical significance.
+Integrate **time-series analysis** for trends over weeks/months.
+Simulate **realistic FMCG datasets** with multiple product categories.
+Explore **Python visualization libraries** (Seaborn, Plotly) for interactive dashboards.
