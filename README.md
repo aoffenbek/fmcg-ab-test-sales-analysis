@@ -36,32 +36,33 @@ fmcg-ab-test-sales-analysis/
 ├── README.md
 └── requirements.txt # Python dependencies
 ```
+---
+
 ## How to Run
 
-1. **Clone the repository**
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/aoffenbek/fmcg-ab-test-sales-analysis.git
 cd fmcg-ab-test-sales-analysis
 
-2. **Create a virtual environment (optional but recommended)**
+**2. Create a virtual environment (optional but recommended)**
 
 python -m venv venv
 source venv/Scripts/activate  # Windows
 
-3. **Install dependencies**
+**3. Install dependencies**
 
 pip install -r requirements.txt
 
-4. **Run the notebook**
+**4. Run the notebook**
 
 Open Jupyter Notebook:
 Navigate to notebooks/01_ab_test_analysis.ipynb and run all cells.
 
-
 ---
 
-##Project Steps
+## Project Steps
 
 Data Generation / Loading – generate or load raw sales data.
 
@@ -77,7 +78,7 @@ Output – save summary tables for further business analysis.
 
 ---
 
-##Example code snippets
+## Example code snippets
 
 Load data
 
@@ -104,8 +105,9 @@ plt.title('Average Daily Sales: Discount vs Control')
 plt.ylabel('Average Sales')
 plt.show()
 
+---
 
-Skills Demonstrated
+## Skills Demonstrated
 
 Data Analysis & Cleaning: Pandas, SQL basics
 
@@ -117,7 +119,9 @@ Portfolio-Ready Workflow: Folder structure, modular code, reproducibility
 
 Documentation & Reporting: Clear README and notebook explanation
 
-Requirements
+---
+
+## Requirements
 
 All Python dependencies are listed in requirements.txt. Install them with:
 
@@ -136,7 +140,9 @@ Optional (for SQL queries):
 
 sqlalchemy>=2.0
 
-Next Steps / Extensions
+---
+
+## Next Steps / Extensions
 
 Apply hypothesis testing (t-tests) to confirm statistical significance.
 
